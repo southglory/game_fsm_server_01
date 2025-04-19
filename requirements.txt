@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+pydantic
+celery
+redis
+flower
+python-dotenv
+httpx
+pytest
+pytest-asyncio
+pydantic-settings

@@ -1,4 +1,4 @@
-# game_fsm_server_01
+# FSM 처리 서버 시스템(FastAPI + Redis + Celery + Flower)
 
 해보는거지~
 
