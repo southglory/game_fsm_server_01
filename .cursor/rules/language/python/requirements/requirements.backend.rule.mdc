@@ -1,0 +1,54 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# backend requirements.txt
+## use auto latest version, not specifying it.
+
+## FastAPI 및 웹 서버
+fastapi
+uvicorn
+pydantic #Pydantic v2
+pydantic-settings
+email-validator
+
+## 데이터베이스
+sqlalchemy #SQLAlchemy 2.0 (if using ORM features)
+alembic
+psycopg2-binary
+asyncpg
+aiosqlite
+
+## 인증 및 보안
+PyJWT
+passlib
+bcrypt
+PyNaCl
+
+## 캐싱 및 세션
+redis
+
+## 유틸리티
+python-dotenv
+httpx
+tenacity
+python-multipart
+freezegun
+
+
+## 모듈
+### validators
+python-magic-bin
+Pillow
+
+## 개발 및 테스트 도구
+mypy
+pytest
+pytest-asyncio
+types-passlib
+pytest-cov
+
+## 블록체인 관련 라이브러리
+web3
+eth-account

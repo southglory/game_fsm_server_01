@@ -1,0 +1,18 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# Application Development Guidelines
+
+- Use main-guard (`if __name__ == "__main__":`) only for CLI or entrypoint scripts.
+- Externalize business logic from CLI / GUI layer into separate modules.
+- Organize code as packages when exceeding trivial script size.
+- For I/O-heavy logic (video, image, filesystem) handle exceptions and edge cases explicitly.
+- Use OOP only when modeling stateful entities; prefer pure functions elsewhere.
+- Logging should be structured (dict or json format), avoid using print().

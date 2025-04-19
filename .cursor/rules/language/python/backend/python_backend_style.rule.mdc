@@ -1,0 +1,14 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# Backend Development (FastAPI)
+
+- Organize code into: routers/, services/, schemas/, utils/.
+- Validate all request/response bodies with Pydantic BaseModel.
+- Use FastAPI's Depends() to inject services and dependencies.
+- Business logic must reside in service layer, not directly in routers.
+- Always specify response_model in route decorators.
+- Use async def for I/O-bound operations (DB, external APIs).
+- Handle errors with HTTPException and middleware-based error handlers.

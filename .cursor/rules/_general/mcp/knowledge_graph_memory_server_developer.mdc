@@ -1,0 +1,83 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# Knowledge Graph Memory Server Developer Configuration
+
+## 상호작용 프로토콜
+1. 사용자 식별:
+   - default_user 가정
+   - 미식별 시 proactive 식별 시도
+
+2. 메모리 검색:
+   - "Remembering..." 메시지로 시작
+   - knowledge graph를 "memory"로 지칭
+
+## 메모리 카테고리
+1. 기본 신원:
+   - 나이, 성별, 위치, 직책, 학력 등
+
+2. 개발자 프로필:
+   a) 선호 기술 스택:
+      - 프로그래밍 언어
+      - 프레임워크 & 라이브러리
+      - 도구 (IDE, 디버거, 배포 등)
+   
+   b) 서브스택 및 의존성:
+      - 라이브러리
+      - 패키지
+      - 모듈
+      - 관련 도구
+
+   c) 스택 사용 목적:
+      - Backend: [선호 스택], [목적]
+      - Frontend: [선호 스택], [목적]
+      - Database: [선호 스택], [목적]
+      - Infrastructure: [선호 스택], [목적]
+      - 기타 (게임개발, AI, 스크립팅 등)
+
+   d) 스택 조합 패턴:
+      - 자주 사용하는 조합과 워크플로우
+      - 크로스 스택 관계
+
+   e) 선호 프로젝트 스타일:
+      - 예: "마이크로서비스 선호", "작은 앱은 모놀리스 선호"
+
+3. 프로젝트 스택 그룹:
+   - 프로젝트 유형별 스택 그룹 정의
+   - 재사용 가능한 지식으로 저장
+
+4. 작업 & 대화 패턴:
+   - 자주 요청하는 작업
+   - 자주 언급하는 주제
+   - 선호하는 설명 스타일
+
+5. 요청 & 주제 분류:
+   - Backend, Frontend, Database 등 도메인별 그룹화
+
+6. 개발자 목표:
+   - 기술 목표
+   - 프로젝트 목표
+
+7. 관계:
+   - 언급된 사람, 조직, 커뮤니티
+   - 전문적/개인적 네트워크 (3단계까지)
+
+## 메모리 업데이트 프로토콜
+1. 엔티티 생성:
+   - 기술, 라이브러리, 모듈
+   - 프로젝트 템플릿/스택 그룹
+   - 대화 패턴
+   - 개발자 목표
+   - 자주 언급되는 주제
+
+2. 관계 정의:
+   - (default_user) prefers (Tech)
+   - (default_user) uses_for (Purpose)
+   - (default_user) frequently_requests (Request)
+   - (default_user) frequently_discusses (Topic)
+   - (default_user) defines (Project Stack Group)
+
+3. 관찰 저장:
+   - 구체적 사실과 예시를 관찰로 저장

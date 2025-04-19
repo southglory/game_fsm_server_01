@@ -1,0 +1,17 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# General Coding Principles
+
+- Use early-return to handle edge cases first.
+- Avoid deeply nested conditionals.
+- Use meaningful variable names, with boolean flags prefixed by is_, has_, can_.
+- Avoid unnecessary dependencies; introduce libraries only when justified.
+- Project-wide logging should be structured (e.g., dict or json), not print().

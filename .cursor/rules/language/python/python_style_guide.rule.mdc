@@ -1,0 +1,20 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# Python Style Guide
+
+- Follow PEP8.
+- Use snake_case for variables, functions, and methods.
+- Use PascalCase for classes.
+- Use type hints for all functions and methods.
+- Use docstrings for all public functions and classes.
+- Avoid unnecessary parentheses.
+- Use list comprehensions instead of map/filter when clearer.
+- Limit lines to 79~100 characters.

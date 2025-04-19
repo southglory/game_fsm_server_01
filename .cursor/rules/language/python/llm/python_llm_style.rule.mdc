@@ -1,0 +1,13 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# LLM Application Development
+
+- Prompt templates must be externalized (json, yaml, templates).
+- Validate LLM output with JSON Schema or Pydantic.
+- Implement retry logic (e.g., tenacity) for LLM API calls.
+- Log every LLM input, output, and relevant metadata.
+- Optimize prompts to control token usage.
+- Sanitize LLM output before exposing it to users.

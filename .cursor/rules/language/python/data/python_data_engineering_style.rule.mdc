@@ -1,0 +1,13 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# Data Engineering
+
+- Design ETL as explicit extract(), transform(), load() stages.
+- Avoid full-memory loading of large datasets, use streaming/batching.
+- Validate input data schema as early as possible.
+- Use parameterized SQL queries to avoid SQL Injection.
+- Log data anomalies and processing statistics systematically.
+- Use vectorized operations in Pandas when applicable.
